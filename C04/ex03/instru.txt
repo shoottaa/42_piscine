@@ -1,0 +1,14 @@
+Ignorer les espaces au début
+Comme quand tu vois plein d'espaces au début d'une phrase : " -123abc" → il faut d'abord sauter tous les espaces blancs.
+
+Regarder s’il y a des signes '+' ou '-'
+Chaque + ne change rien.
+Chaque - change le signe (positif ou négatif).
+S’il y a un nombre impair de -, le nombre devient négatif.
+Exemple : "--+-123" → il y a 1 seul - → donc le nombre est négatif.
+
+Lire les chiffres un par un
+Tant que ce sont des chiffres (0, 1, ..., 9), on les met dans le nombre.
+Dès qu’on voit autre chose (comme une lettre ou un point), on s’arrête.
+
+Retourner le nombre (positif ou négatif).
